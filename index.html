@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+	<head>
+		<title>Todo App</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="main.css">
+		<script src="elm.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<p>Todo アプリ  <img src="logo.png"></p> 
+		</div>
+		<div id="elm"></div>
+		<div class="footer">
+			<p>@0x6d61</p>
+		</div>
+		<script>
+			var app = Elm.Main.init({
+    			node: document.getElementById('elm')
+  			});
+		</script>
+	</body>
+</html>

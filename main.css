@@ -1,0 +1,70 @@
+html,body {
+  display: inline;
+  margin:0px;
+  padding:0px;
+}
+.header {
+  margin: 0px 0px 0px 0px;
+  padding-top:10px;
+  padding-left:50px;
+  padding-bottom: 50px;
+  height: 120px;
+  font-size: 32px;
+  background-color: #66cdaa;
+  color:#fff;
+}
+
+.footer {
+  margin: 186px 0px 0px 0px;
+  padding-top:20px;
+  padding-bottom:25px;
+  padding-left:50px;
+  font-size: 24px;
+  background-color: #66cdaa;
+  color:#fff;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 65px 100px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.tasklist{
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.task {
+    font-size:24px;
+}
+
+ul {
+    list-style: none;
+  }
+
+  .addTaskButton {
+      margin-left: 10px;
+      padding-left:10px;
+      padding-right: 10px;
+      height: 40px;
+    border-style: none;
+      font-size: 24px;
+      background-color: #00008b;
+      color: #fff;
+      box-shadow: 2px 2px 3px 1px #666;
+    -moz-box-shadow: 2px 2px 3px 1px #666;
+    -webkit-box-shadow: 2px 2px 3px 1px #666;
+
+  }
+.addTaskInput {
+    width:400px;
+    height:24px;
+    border-radius: 2px;
+    font-size:24px;
+    border: solid 1px #ffa500;
+
+}
